@@ -1,0 +1,295 @@
+/* width */
+::-webkit-scrollbar {
+    width: 20px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #e9adba;
+    border: white;
+    border-radius: 10px;
+}
+
+
+/*estilizaçao do corpo da pagina*/
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    line-height: 1;
+    /*<div _ngcontent-lpj-c175="" dir="auto" class="text-sample">ZWAŻYWSZY, że nieposzanowanie i nieprzestrzeganie praw człowieka</div>; */
+
+}
+
+
+header {
+    background: linear-gradient(#E797A9 85%, white);
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+
+
+}
+
+/*estilização da sessao NAV(navegaçao) da pagina*/
+nav {
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    /*color:rgba(185, 5, 155, 0.979);*/
+    color: white;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: rgb(253, 97, 193);
+    text-decoration: underline;
+}
+
+/*estilização das listas da pagina*/
+ul {
+    list-style: none;
+    margin-right: 50px;
+}
+
+/*estilização do Logotipo*/
+.logo_caixa {
+    width: 20%px;
+    position: relative;
+    margin: auto;
+}
+
+/*banner*/
+.banner {
+    width: 100%
+}
+
+.logo {
+    margin-left: 100px;
+    margin-bottom: 20px;
+    width: 50%;
+    border-radius: 50px;
+    height: 50%;
+
+}
+
+/*estilização do banner*/
+.banner {
+    width: 100%;
+}
+
+/*estilização da area "sobre"*/
+.titulo-principal {
+    text-align: center;
+    font-size: x-large;
+    /* dobro da fonte padrão*/
+    margin: 0 0 1em;
+    clear: left;
+
+}
+
+.principal {
+    width: 100%;
+
+    margin-top: 50px;
+    padding: 3em 0;
+    background: #E797A9;
+    text-align: center;
+    text-size-adjust: 20px;
+    color: white;
+}
+
+#caixa-principal {
+    text-align: justify;
+    margin-left: 320px;
+
+}
+
+.img-principal {
+    position: absolute;
+    margin-left: 90px;
+}
+
+.texto-principal {
+    height: 80px;
+    position: relative;
+    margin-left: 200px;
+}
+
+
+.principal strong {
+    font-weight: bold;
+}
+
+.principal em {
+    font-style: italic;
+}
+
+.donuts {
+    width: 120px;
+    float: left;
+    margin: 0 20px 20px 0;
+}
+
+/*estilização do mapa*/
+.map {
+    padding: 3em 0;
+    background: linear-gradient(#E797A9)
+}
+
+.mapa-conteudo {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.map p {
+    margin: 0 0 2em;
+    text-align: center;
+}
+
+/*area beneficios e video*/
+.beneficios {
+    padding: 3em0;
+    background: linear-gradient(#E797A9, white);
+    font-weight: bold;
+}
+
+.conteudo-beneficio {
+    margin-top: 20px;
+    width: 640px;
+    margin: 0 auto;
+}
+
+
+
+.img_beneficio {
+    width: 50%;
+    opacity: 1;
+    transition: 400ms;
+    box-shadow: 10px 10px 5px 0px #E797A9;
+}
+
+.img_beneficios:hover {
+    opacity: 0.7;
+}
+
+itens {
+    padding-top: 20px;
+    line-height: 1.5;
+    font-size: x-large;
+}
+
+.itens:before {
+    content: "&";
+}
+
+.itens:first-child {
+    font-weight: bold;
+}
+
+.video {
+    width: 560px;
+}
+
+footer {
+    text-align: center;
+    background: #E797A9;
+    padding: 25px 0;
+    border-radius: 20px;
+    color: white;
+    height: auto;
+}
+
+.rosca {
+    width: 500px;
+    height: 500px;
+
+
+}
+
+.TituloCardapio{
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    background-color: #E797A9;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 70px;
+}
+
+.blocos {
+
+    margin-top: 70px;
+    display: flex;
+    align-items: center;
+    margin-left: 1.5%;
+
+}
+
+.bloco1 {
+    color: white;
+    padding: 10px;
+    text-align: center;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    width: 15cm;
+    height: 15cm;
+    background: #E797A9;
+    border-radius: 20px;
+
+    font-size: large;
+    border-style: solid;
+    border-color: white;
+}
+
+.bloco2 {
+    padding: 10px;
+    text-align: center;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    width: 16cm;
+    height: 15cm;
+    background: #E797A9;
+    border-radius: 20px;
+    color: white;
+    font-size: large;
+    border-style: solid;
+    border-color: white;
+}
+
+.bloco3 {
+    padding: 10px;
+    text-align: center;
+    margin-right: 10px;
+    margin-left: 15px;
+    margin-bottom: px;
+    width: 16cm;
+    height: 15cm;
+    background: #E797A9;
+    border-radius: 20px;
+    color: white;
+    font-size: large;
+    border-style: solid;
+    border-color: white;
+}
